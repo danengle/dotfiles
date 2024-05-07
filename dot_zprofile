@@ -4,4 +4,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export BREW_PREFIX="$(brew --prefix)"
 export BREW_OPT="${BREW_PREFIX}/opt"
 
+export EDITOR="${HOME}/.asdf/shims/nvim"
+
 PATH="${HOME}/.asdf/shims:${HOME}/.docker/bin:${BREW_OPT}/curl/bin:${BREW_OPT}/asdf/libexec/bin:${BREW_OPT}/postgresql@16/bin:${BREW_OPT}/gnu-sed/libexec/gnubin:${XDG_BIN_HOME}:${PATH}"
