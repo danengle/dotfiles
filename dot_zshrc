@@ -1,0 +1,14 @@
+
+bindkey -A viins main
+
+# Load zsh completions from installed brew applictions
+FPATH="${BREW_PREFIX}/share/zsh/site-functions:${FPATH}"
+
+plugins=( zsh-vi-mode zsh-autosuggestions fzf-zsh-plugin git brew colorize common-aliases rails ruby npm yarn)
+source $ZSH/oh-my-zsh.sh
+
+source "${ZSH_LOCAL_CONFIG}/aliases.zsh"
+source "${ZSH_LOCAL_CONFIG}/extras.zsh"
+
+# For highlighting to work, thes has to go last
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

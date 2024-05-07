@@ -1,0 +1,10 @@
+gui:
+    border: rounded
+    nerdFontsVersion: "3"
+    theme:
+        activeBorderColor:
+            - "#89b4fa"
+        inactiveBorderColor:
+            - "#7b8496"
+        selectedLineBgColor:
+            - "#313244"
