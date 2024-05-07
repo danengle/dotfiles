@@ -18,6 +18,7 @@ alias lsad="eza -l --all --icons --time-style=long-iso --group-directories-first
 alias lsam="eza -l --all --icons --time-style=long-iso --sort=modified"
 
 # All the neovims
+alias nn="nvim "
 alias nvim-astro='NVIM_APPNAME="nvim-astro" nvim'
 alias nvim-chad='NVIM_APPNAME="nvim-chad" nvim'
 alias nvim-kickstart='NVIM_APPNAME="nvim-kickstart" nvim'
